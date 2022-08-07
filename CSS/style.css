@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    padding: 5px;
+    background-color: rgb(28, 40, 40);
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.navlist {
+    width: 50%;
+    display: flex;
+    /* justify-content: center; Box ke andar horizontally center hoga */
+    align-items: center;  /* box ke andar vertically center hoga */
+    /* background-color: black; */
+
+}
+
+.navlist li {
+    list-style-type: none;
+    padding:  0 10px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+.rightnav {
+    /* background-color: aquamarine; */
+    width: 50%;
+    padding: 5px;
+    text-align: right;
+}
+
+.logo {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 35px;
+    width: 39px;
+    border-radius: 50%;
+    border-color: rgb(73, 40, 40);
+}
+#Search{
+    padding: 3px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.hamburger{
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    cursor: pointer;
+
+}
+.line{
+    width: 25px;
+    background-color: white;
+    height: 2px;
+    margin: 5px 3px;
+}
